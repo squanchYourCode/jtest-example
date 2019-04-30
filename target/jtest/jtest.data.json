@@ -1,0 +1,123 @@
+{
+  "name": "com.parasoft:demo",
+  "location": "/home/dchacon/jtest/examples/demo",
+  "type": "classpath_project",
+  "build_id": "10.4.2.20190306-20190311-1600",
+  "schema_version": "1.1",
+  "testoutcomes": [
+    {
+      "type": "junit",
+      "files": [
+        "/home/dchacon/jtest/examples/demo/target/surefire-reports/TEST-examples.mock.FileExampleTest.xml",
+        "/home/dchacon/jtest/examples/demo/target/surefire-reports/TEST-examples.mock.InterpreterTest.xml",
+        "/home/dchacon/jtest/examples/demo/target/surefire-reports/TEST-examples.junit.NaiveStringBuilderParameterizedTest.xml",
+        "/home/dchacon/jtest/examples/demo/target/surefire-reports/TEST-examples.servlets.ExampleServletTest.xml",
+        "/home/dchacon/jtest/examples/demo/target/surefire-reports/TEST-examples.junit.MoneyBagParameterizedTest.xml",
+        "/home/dchacon/jtest/examples/demo/target/surefire-reports/TEST-examples.mock.ConstructorExampleTest.xml",
+        "/home/dchacon/jtest/examples/demo/target/surefire-reports/TEST-examples.junit.MoneyTest.xml"
+      ]
+    },
+    {
+      "type": "coverage.runtime",
+      "files": [
+        "/home/dchacon/jtest/examples/demo/target/jtest/runtime_coverage"
+      ]
+    }
+  ],
+  "compilations": [
+    {
+      "id": "default-compile",
+      "sourcepath": [
+        "/home/dchacon/jtest/examples/demo/src/main/java"
+      ],
+      "includes": [],
+      "excludes": [],
+      "tests": [],
+      "binarypath": [
+        "/home/dchacon/jtest/examples/demo/target/classes"
+      ],
+      "classpath": [
+        "/home/dchacon/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar",
+        "/home/dchacon/.m2/repository/org/powermock/powermock-core/2.0.0-beta.11/powermock-core-2.0.0-beta.11.jar",
+        "/home/dchacon/.m2/repository/org/powermock/powermock-api-support/2.0.0-beta.11/powermock-api-support-2.0.0-beta.11.jar",
+        "/home/dchacon/.m2/repository/pl/pragmatists/JUnitParams/1.1.1/JUnitParams-1.1.1.jar",
+        "/home/dchacon/.m2/repository/net/bytebuddy/byte-buddy/1.9.0/byte-buddy-1.9.0.jar",
+        "/home/dchacon/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.0/byte-buddy-agent-1.9.0.jar",
+        "/home/dchacon/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar",
+        "/home/dchacon/.m2/repository/org/powermock/powermock-reflect/2.0.0-beta.11/powermock-reflect-2.0.0-beta.11.jar",
+        "/home/dchacon/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar"
+      ],
+      "bootpath": [
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar"
+      ],
+      "encoding": "UTF-8",
+      "sourcelevel": "1.7"
+    },
+    {
+      "id": "default-testCompile",
+      "sourcepath": [
+        "/home/dchacon/jtest/examples/demo/src/test/java"
+      ],
+      "includes": [],
+      "excludes": [],
+      "tests": [
+        "/home/dchacon/jtest/examples/demo/src/test/java/**"
+      ],
+      "binarypath": [
+        "/home/dchacon/jtest/examples/demo/target/test-classes"
+      ],
+      "classpath": [
+        "/home/dchacon/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar",
+        "/home/dchacon/.m2/repository/junit/junit/4.12/junit-4.12.jar",
+        "/home/dchacon/.m2/repository/org/mockito/mockito-core/2.23.0/mockito-core-2.23.0.jar",
+        "/home/dchacon/.m2/repository/org/powermock/powermock-module-junit4/2.0.0-beta.11/powermock-module-junit4-2.0.0-beta.11.jar",
+        "/home/dchacon/.m2/repository/org/powermock/powermock-module-junit4-common/2.0.0-beta.11/powermock-module-junit4-common-2.0.0-beta.11.jar",
+        "/home/dchacon/.m2/repository/org/powermock/powermock-core/2.0.0-beta.11/powermock-core-2.0.0-beta.11.jar",
+        "/home/dchacon/.m2/repository/org/powermock/powermock-api-mockito2/2.0.0-beta.11/powermock-api-mockito2-2.0.0-beta.11.jar",
+        "/home/dchacon/.m2/repository/org/powermock/powermock-api-support/2.0.0-beta.11/powermock-api-support-2.0.0-beta.11.jar",
+        "/home/dchacon/.m2/repository/pl/pragmatists/JUnitParams/1.1.1/JUnitParams-1.1.1.jar",
+        "/home/dchacon/jtest/examples/demo/target/classes",
+        "/home/dchacon/.m2/repository/net/bytebuddy/byte-buddy/1.9.0/byte-buddy-1.9.0.jar",
+        "/home/dchacon/.m2/repository/net/bytebuddy/byte-buddy-agent/1.9.0/byte-buddy-agent-1.9.0.jar",
+        "/home/dchacon/.m2/repository/org/objenesis/objenesis/2.6/objenesis-2.6.jar",
+        "/home/dchacon/.m2/repository/org/powermock/powermock-reflect/2.0.0-beta.11/powermock-reflect-2.0.0-beta.11.jar",
+        "/home/dchacon/.m2/repository/org/javassist/javassist/3.22.0-GA/javassist-3.22.0-GA.jar"
+      ],
+      "bootpath": [
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/java-atk-wrapper.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar",
+        "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar"
+      ],
+      "encoding": "UTF-8",
+      "sourcelevel": "1.7"
+    }
+  ]
+}
